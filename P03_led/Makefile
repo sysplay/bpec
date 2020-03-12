@@ -4,7 +4,7 @@ BIN := $(SRC:.c=.bin)
 
 all: ${BIN}
 
-show: first_disasm
+show: leds_test_disasm
 
 leds_test.elf: leds.o
 
