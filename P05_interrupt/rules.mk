@@ -10,14 +10,13 @@ OBJDUMP := ${CROSS_COMPILE}objdump
 CFLAGS := -mcpu=cortex-a8
 CFLAGS += ${OPTIMIZATION_FLAGS}
 ASFLAGS := -mcpu=cortex-a8
-LDFLAGS = -T first.lds
-#LDFLAGS += -Map=$*.map
+LDFLAGS = -T linker.lds
+LDFLAGS += -Map=$*.map
 
 %.bin: %.elf
 	${OBJCOPY} --gap-fill=0xFF -O binary $< $@
 
-%.elf: %.o first_startup.o
-#%.elf: %.o common.o first_startup.o
+%.elf: %.o common.o startup.o interrupt.o
 	${LD} ${LDFLAGS} $^ -o $@
 
 #%.o: %.c
