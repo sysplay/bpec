@@ -1,0 +1,1 @@
+../P05_interrupt/rules.mk

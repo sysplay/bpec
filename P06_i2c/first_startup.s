@@ -1,0 +1,1 @@
+../P04_debug/first_startup.s
