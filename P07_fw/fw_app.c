@@ -3,8 +3,8 @@
  * + l 0 - Switch off LED 0
  * + l 1 - Switch on LED 0
  * + b <msecs> - Blink LED 1 at an interval of <msecs> milliseconds
- * + b 0 - Disable the blink of LED 1
- * + r <addr> <cnt> - Read <acnt> bytes from EEPROM starting at address <addr>
+ * + b 0 - Stop the blink of LED 1
+ * + r <addr> <cnt> - Read <cnt> bytes from EEPROM starting at address <addr>
  */
 #include "debug.h"
 #include "leds.h"
@@ -16,6 +16,7 @@ static void init_shell(void)
 	debug_init();
 
 	leds_init();
+	// TODO: Fill in as needed
 	eeprom_init();
 
 	scan_char();
@@ -23,6 +24,7 @@ static void init_shell(void)
 static void shut_shell(void)
 {
 	eeprom_shut();
+	// TODO: Fill in as needed
 	leds_shut();
 
 	debug_shut();

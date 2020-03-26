@@ -15,7 +15,7 @@
 void i2c_init(I2CMode mode)
 {
 	CM_WKUP_I2C0_CLKCTRL = (0x2 << 0); // Enable the wakeup module - has to be the first one before accessing any I2C
-	// I2C Pin Settings for SDA & SCL as per the reference code
+	// I2C Pin Settings for SDA & SCL as per the reference manual
 	CTRL_MOD_CONF_I2C0_SDA = 0 /* TODO 1A: Setup the Pin Muxing */;
 	CTRL_MOD_CONF_I2C0_SCL = 0 /* TODO 1B: Setup the Pin Muxing */;
 
