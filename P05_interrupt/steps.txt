@@ -1,0 +1,8 @@
+Assignment #05
+
++ Complete the TODOs in interrupt.h, interrupt.c, timer.c
++ Post the page # having timer 0's irq number to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+
++ Enable interrupt based timer in timer.h & Build (make) and download timer_test.bin over minicom using xmodem.
++ Record a 10-sec video of your BBB w/ toggling LED every 1 second (after pressing an Enter).
++ Send the above video to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.

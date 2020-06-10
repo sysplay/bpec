@@ -1,0 +1,11 @@
+Assignment #07
+
++ Complete the TODOs in fw_app.c to implement the following:
+	> atoi() function
+	> LED command (l 0 to switch off led 0, and l 1 to switch on led 0)
+	> Timer command (b <msecs> to blink led 1 w/ <msecs> interval. Stop blinking led 1 if <msecs> is 0)
+	> EEPROM command (r <addr> <cnt> to read & display <cnt> bytes of EEPROM statrting from address <addr>)
++ Record a video of executing these commands and correspondingly showing the effects on BBB.
++ Send the above video to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
++ Post the endianness of Cortex-A8 to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+	(Hint: Refer to the byte-wise output of "r" command)

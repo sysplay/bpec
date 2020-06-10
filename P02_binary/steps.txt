@@ -1,0 +1,10 @@
+Assignment #02
+
++ Perform the steps to obtain first.bin and download it on BBB.
++ Take a snapshot of the downloading and send it to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+
++ Which document & its page #s do you need to refer to find the BBB's User LEDs' connection?
++ What are the four User LEDs connected to?
++ Which document & its section # do you need to refer to find registers related to the User LEDs' connection?
++ Which base address would be needed for operating on the above registers? (Hint: Look for GPIO1)
++ Post the answer to the above four questions to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.

@@ -9,7 +9,7 @@ SECTIONS
 		*(.text)
 	}
 	.data : { *(.data /*.rodata*/) } /* Global and static variables initialized by the application code */
-	.bss : /* Global and static variables that are not initialized by the application code */
+	.bss : ALIGN(4) /* Global and static variables that are not initialized by the application code */
 	{
 		bss_begin = .;
 		*(.bss)

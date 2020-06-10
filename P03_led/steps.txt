@@ -1,0 +1,11 @@
+Assignment #03
+
++ Complete the TODOs in blink_led.c
++ Record a 10-sec video of your BBB w/ blinking LED using blink_led.bin
++ Send the above video to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+
++ What is the state of blinking LED in case of the following changes?
+	> Enable optimization -O2 in rules.mk line #9
+	> Remove __attribute__((optimize("O0"))) from common.c
++ Post the answer to the above question to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
++ And then revert back the above changes.

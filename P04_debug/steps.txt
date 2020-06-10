@@ -1,0 +1,22 @@
+Assignment #04
+
+1) Setting up the BSS
+	> Add code in switch_test.c to print global variables initialized to non-zero values and non-initialized ones
+	> Check out the placement of these variables in the map file
+	> Observe the BSS (Block Started by Symbol) section peculiarity using switch_test.bin
+	> Uncomment BSS related stuff (bss_begin & bss_end) in first.lds (on line # 14 & from line #17),
+		And Uncomment line #6 & the _clear_bss code (from line # 10) in first_startup.s
+	> Observe the difference
+	> Take a snapshot of difference and send it to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation
+
+2) Printing the Registers
+	> Add code in switch_test.c to display the Device Id (Refer Sec 1.1.2 in Docs/am335x_trm.pdf)
+	> Send the image of its output on BBB to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation
+
+3) Printing a Byte
+	> Implement void print_hex_byte(uint8_t n) in debug.c and prototype it in debug.h
+	> Send the image of the code snippet to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation
+
+4) Timer Walkthrough
+	> Skim through the timer* code
+	> Blink an LED (w/ fixed period) using timer_test.bin (Hint: Add timer_test.c in Makefile)

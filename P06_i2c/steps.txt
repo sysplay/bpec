@@ -1,0 +1,11 @@
+Assignment #06
+
++ Complete the TODOs in i2c.c, eeprom.c
++ Post doc page # having SCLL formula to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+
++ Use print_hex_byte() in eeprom_test.c to print the EEPROM bytes byte-wise as well.
+	(Hint: print_hex_byte() has already been implemented by you)
++ Build (make) and download eeprom_test.bin over minicom using xmodem.
++ Send the image of values from EEPROM to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+
+NB You may verify the EEPROM values using Section 6.4 (pg 64) of BBB_SRM.pdf
