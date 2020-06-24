@@ -7,5 +7,7 @@ Assignment #06
 	(Hint: print_hex_byte() has already been implemented by you)
 + Build (make) and download eeprom_test.bin over minicom using xmodem.
 + Send the image of values from EEPROM to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
++ Post the endianness of Cortex-A8 to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+	(Hint: Refer to the word-wise and byte-wise print of EEPROM bytes)
 
 NB You may verify the EEPROM values using Section 6.4 (pg 64) of BBB_SRM.pdf

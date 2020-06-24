@@ -7,5 +7,3 @@ Assignment #07
 	> EEPROM command (r <addr> <cnt> to read & display <cnt> bytes of EEPROM statrting from address <addr>)
 + Record a video of executing these commands and correspondingly showing the effects on BBB.
 + Send the above video to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
-+ Post the endianness of Cortex-A8 to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
-	(Hint: Refer to the byte-wise output of "r" command)

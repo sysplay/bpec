@@ -2,6 +2,7 @@ Assignment #04
 
 1) Setting up the BSS
 	> Add code in switch_test.c to print global variables initialized to non-zero values and non-initialized ones
+	> Print in both decimal & hexadecimal
 	> Check out the placement of these variables in the map file
 	> Observe the BSS (Block Started by Symbol) section peculiarity using switch_test.bin
 	> Uncomment BSS related stuff (bss_begin & bss_end) in first.lds (on line # 14 & from line #17),
