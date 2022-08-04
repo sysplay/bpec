@@ -1,10 +1,10 @@
 Assignment #01
 
-Part #0:
-+ Complete the "Getting Started" & Get CCC on BBB.
-+ Take a snapshot and send it to SysPlay's WhatsApp number, NOT the WhatsApp group.
-
 Part #1:
++ Complete the "Getting Started" & Get CCC on BBB.
++ Take a snapshot and send it to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+
+Part #2:
 + Write a simple C program to add two numbers.
 + Get its preprocessed output, assembly output, object output, and executable output for x86.
 + Get its preprocessed output, assembly output, object output, and executable output for ARM.
@@ -17,3 +17,7 @@ Part #1:
 	c) object output
 	d) executable output
 	e) disassembled output
+
+Part #3:
++ Send the BBB bootup sequence to SysPlay's WhatsApp number, NOT the WhatsApp group, for gradation.
+	(Hint: Refer to Chapter 26 of am335x_trm.pdf)
